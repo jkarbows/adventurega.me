@@ -239,6 +239,12 @@ header .header-content .header-content-inner p {
     }
 }
 
+@media(min-width:1200px) {
+  .no-gutter .col-lg-4 {
+    width: 25%;
+  }
+}
+
 .section-heading {
     margin-top: 0;
 }
