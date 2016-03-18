@@ -145,6 +145,14 @@ a:hover {
     padding: 0;
   }
   
+  .left-icons {
+    padding-right: 0;
+  }
+  
+  .right-icons {
+    padding-left: 0;
+  }
+  
   .contact {
     padding-right: 0;
   }
