@@ -1,0 +1,126 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  
+}
+
+hr {
+  max-width: 50px;
+  border-color: #f05f40;
+  border-width: 3px;
+  margin-bottom: 3.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 3.3em;
+}
+
+h3 {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  padding-top: 0;
+  color: #f05f40;
+  opacity: 0.8;
+}
+
+h4 {
+  margin-top: 0.3em;
+  line-height: 1.2;
+  font-size: 1em;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: 4em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+img {
+  max-width: 40%;
+  border-radius: 50%;
+}
+
+.welcome {
+  margin-bottom: 12em;
+}
+
+.name {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.hello {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.col-xs-4 {
+  margin-top: 0.5em;
+}
+
+.work {
+  float: right;
+}
+
+.special {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+i {
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 3.6s;
+  animation-duration: 4s;
+  animation-delay: 3.6s;
+}
+
+.final {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 5s;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  margin: 1em;
+}
+
+a:hover {
+  transition: 1s color;
+}
+
+@media(min-width:768px) {
+  .work i {
+    margin-left: 0.5em;
+  }
+  
+  .contact i {
+    margin-right: 0.5em;
+  }
+}
+
+@media(max-width:768px) {
+  .welcome {
+    text-align: center;
+  }
+}
