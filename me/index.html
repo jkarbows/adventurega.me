@@ -12,16 +12,16 @@
 	<title>Jeremy Karbowski</title>
 	
 	<!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	
-    <!-- Plugin and Custom Fonts -->
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
+  <!-- Plugin and Custom Fonts -->
+  <link rel="stylesheet" href="css/animate.css" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/me.css" type="text/css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/me.css" type="text/css">
 	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Be aware Respond.js doesn't work if you view the page via file:// -->
@@ -42,20 +42,28 @@
       
         <div class="col-xs-12 col-md-4">
           <div class="welcome">
-            <img src="assets/me.jpg" alt="My Face"></img>
+            <img class="animated fadeIn" src="assets/me.jpg" alt="attr. Satoshi Kurosaki"></img>
             <h1 class="animated rotateInDownLeft">Hello!</h1>
             <h3 class="animated fadeInLeft">my name is:</h3>
             <div class="name animated rotateInUpLeft">
               <h2>Jeremy</h2>
               <h2>Karbowski</h2>
             </div>
+            <h4 class="animated fadeIn">I am <span class="typer"></span></h4>
           </div>
         </div>
         
         <div class="col-md-8">
           <div class="hello animated rotateInDownRight">
             <hr>
-            <p>This is my website. What more could you want to know?</p>
+              <p>I'm a student and software engineer currently in my third year at university. I study martial arts, speak Japanese, and love to climb trees when I'm not on my computer.
+              <br><br>
+              I spend most of my time working with JavaScript and node.js. Recently, I wrote a voice interface for Twitter using Amazon's Alexa Voice Service. It was my first foray into designing a shippable user experience for voice, and I learned a lot from it! The skill is currently awaiting review by Amazon's certification team for publishing.
+              <br><br>
+              I also enjoy doing design work. The most recent thing I've created is this page you're looking at right now! I prefer clean designs that communicate information simply and accessibly.
+              <br><br>
+              Feel free to <a href="mailto:jkarbows@emich.edu">contact me</a> for any reason, or check out <a href="assets/JeremyKarbowskiResume2016Mar17.pdf">my resume</a> below.
+              </p>
             <hr>
           </div>
           
@@ -67,7 +75,7 @@
               </div>
             </div>
             <div class="col-xs-2 special animated fadeIn">
-              <h4><strong>CHECK<br><i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;ME&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i><br>OUT</strong></h4>
+              <h5><strong>CHECK<br><i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;ME&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i><br>OUT</strong></h5>
             </div>
             <div class="col-xs-4">
               <div class="contact">
@@ -97,5 +105,7 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script> $(function(){ $(".typer").typed({ strings: ["a developer", "a programmer", "a designer", "a student", "a thinker", "an artist", "a problem solver", "a translator", "an innovator", "a bit of a tech geek", "a strong communicator", "looking for work!"], typeSpeed: 21, backDelay: 2000, loop: true, showCursor: false });}); </script>
   </body>
 </html>

@@ -26,19 +26,33 @@ h6 {
   margin-top: 0;
 }
 
+h1 {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
 h2 {
   font-size: 3.3em;
+  line-height: 0.8;
 }
 
 h3 {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   padding-top: 0;
   color: #f05f40;
   opacity: 0.8;
 }
 
 h4 {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  line-height: 1.2;
+}
+
+h5 {
   margin-top: 0.3em;
   line-height: 1.2;
   font-size: 1em;
@@ -52,13 +66,15 @@ h6 {
 }
 
 p {
-  margin-bottom: 1em;
-  font-size: 4em;
+  margin-bottom: 3.5em;
+  font-size: 1.2em;
   line-height: 1.2;
   text-align: center;
 }
 
 img {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   max-width: 40%;
   border-radius: 50%;
 }
@@ -73,8 +89,9 @@ img {
 }
 
 .hello {
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+  margin-top: 5em;
 }
 
 .col-xs-4 {
@@ -86,22 +103,22 @@ img {
 }
 
 .special {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
 
 i {
   -webkit-animation-duration: 4s;
-  -webkit-animation-delay: 3.6s;
+  -webkit-animation-delay: 4.1s;
   animation-duration: 4s;
-  animation-delay: 3.6s;
+  animation-delay: 4.1s;
 }
 
 .final {
   -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 5s;
+  -webkit-animation-delay: 5.5s;
   animation-duration: 2s;
-  animation-delay: 5s;
+  animation-delay: 5.5s;
   margin: 1em;
 }
 
@@ -122,5 +139,18 @@ a:hover {
 @media(max-width:768px) {
   .welcome {
     text-align: center;
+  }
+  
+  .special {
+    padding: 0;
+  }
+  
+  .contact {
+    padding-right: 0;
+  }
+  
+  .fa-arrow-circle-left,
+  .fa-arrow-circle-right {
+    display: none;
   }
 }
