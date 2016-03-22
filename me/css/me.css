@@ -6,7 +6,6 @@ body {
 
 body {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
-  
 }
 
 hr {
@@ -105,6 +104,11 @@ img {
 .special {
   -webkit-animation-delay: 3.5s;
   animation-delay: 3.5s;
+}
+
+.left-icons,
+.right-icons {
+  overflow: hidden;
 }
 
 i {

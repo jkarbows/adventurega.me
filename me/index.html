@@ -43,7 +43,17 @@
         <div class="col-xs-12 col-md-4">
           <div class="welcome">
             <img class="animated fadeIn" src="assets/me.jpg" alt="attr. Satoshi Kurosaki"></img>
-            <h1 class="animated rotateInDownLeft">Hello!</h1>
+            <h1 id="hi" class="animated rotateInDownLeft">Hello!</h1><script>
+            var d = new Date();
+            var n = d.getHours();
+            var message = "Hi!";
+            if ( n >= 5 && n <= 11) {
+            message = "Good Morning!";
+            } else if ( n >= 12 && n <= 22 ) {
+            message = "Hello!";
+            }
+            document.getElementById("hi").innerHTML = message;
+            </script>
             <h3 class="animated fadeInLeft">my name is:</h3>
             <div class="name animated rotateInUpLeft">
               <h2>Jeremy</h2>
