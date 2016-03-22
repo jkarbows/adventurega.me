@@ -166,3 +166,15 @@ a:hover {
     display: none;
   }
 }
+
+.blink {
+  color: #aaa;
+  animation: blink 0.7s infinite alternate;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  45% {opacity: 1;}
+  55% {opacity: 0;}
+  100% {opacity: 0;}
+}
